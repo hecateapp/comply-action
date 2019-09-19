@@ -1,5 +1,8 @@
 name: Comply Action
 description: Run strongdm/comply tasks such as scheduler
+branding:
+  color: purple
+  icon: clipboard
 runs:
   using: "docker"
   image: "Dockerfile"
