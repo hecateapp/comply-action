@@ -1,0 +1,12 @@
+name: Comply Action
+description: Run strongdm/comply tasks such as scheduler
+runs:
+  using: "docker"
+  image: "Dockerfile"
+inputs:
+  jira_username:
+    required: false
+    description: Username for JIRA account
+  jira_password:
+    required: false
+    description: Password (or API token) for JIRA account
