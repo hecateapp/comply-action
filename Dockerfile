@@ -1,5 +1,5 @@
-# FROM strongdm/comply:latest
-FROM golang:latest
+FROM strongdm/comply:latest
+# FROM golang:latest
 
 RUN go get github.com/strongdm/comply
 
